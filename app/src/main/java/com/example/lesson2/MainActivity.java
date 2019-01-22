@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         editTextField = (EditText) findViewById(R.id.editText);
         textView = (TextView) findViewById(R.id.textView2);
-
         editTextField.addTextChangedListener(textWatcher);
     }
 
